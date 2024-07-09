@@ -1,61 +1,11 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/BabyDollRegular.woff2') format('truetype');
+   
+    font-weight: normal;
+    font-style: normal;
 }
 
-.header, .footer {
-    height: 100px; /* 示例高度，可根据实际情况调整 */
-    background-color: #f0f0f0; /* 示例背景色，可根据实际情况调整 */
-}
-
-.container {
-    position: relative;
-    width: 100vw;
-    height: calc(100vh - 200px); /* 减去 header 和 footer 的高度 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-wrapper {
-    position: relative;
-    width: 80%; /* 调整宽度以适应实际需求 */
-    height: auto;
-}
-
-.about-image {
-    width: 100%;
-    height: auto;
-}
-
-.cape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    animation: float 3s infinite ease-in-out;
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.5);
-    }
-}
-
-.about-image:hover {
-    animation: zoom 0.5s forwards;
+body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, td, th {
+    font-family: 'Lobster', sans-serif !important;
 }
