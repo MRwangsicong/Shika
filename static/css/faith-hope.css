@@ -1,1 +1,12 @@
-@font-face{font-family:faith hope;font-style:normal;font-weight:400;src:local('Faith Hope'),url(../fonts/BabyDoll.woff) format('woff')}
+@font-face {
+    font-family: 'Faith Hope';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Faith Hope'), 
+         url('../fonts/BabyDoll.woff') format('woff'),
+         url('../fonts/BabyDollRegular.woff2') format('woff2'),
+}
+
+body {
+    font-family: 'Faith Hope', sans-serif;
+}
