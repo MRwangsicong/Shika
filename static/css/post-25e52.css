@@ -80,9 +80,12 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-0c1431a .elementor-heading-title {
-    color: #000000;
-    font-family: "Permanent Marker", Sans-serif;
+    color: #1e1e1e;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: bold;
+    font-style: italic;
     font-size: 42px;
+    transform: skewX(-10deg); 
 }
 
 .elementor-2 .elementor-element.elementor-element-0c1431a>.elementor-widget-container {
