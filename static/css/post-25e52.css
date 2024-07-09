@@ -225,7 +225,12 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-4620da7>.elementor-widget-container {
-    margin: 0px 0px 0px 0px;
+   color: #1e1e1e;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    transform: skewX(-10deg); 
 }
 
 .elementor-2 .elementor-element.elementor-element-b66fa8f>.elementor-element-populated {
