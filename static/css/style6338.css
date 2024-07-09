@@ -2059,7 +2059,12 @@ dd {
 }
 
 p {
-	line-height: var(--wp--typography--line-height, --global--line-height-body);
+	 color: #1e1e1e;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    transform: skewX(-10deg); 
 }
 
 p.has-background {
